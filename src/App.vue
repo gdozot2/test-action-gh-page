@@ -12,7 +12,7 @@ export default {
     HelloWorld
   },
   mounted() {
-    console.log(process.env.VUE_APP_TITLE);
+    console.log(process.env);
   }
 }
 </script>
