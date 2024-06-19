@@ -38,6 +38,8 @@ jobs:
         run: |
           npm ci
           npm run build
+        env:
+            VUE_APP_TITLE: ${{ secrets.VUE_APP_TITLE }}
 
       - name: Setup Pages  # Configures pages for deployment.
         id: pages
